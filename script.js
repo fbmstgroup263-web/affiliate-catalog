@@ -1,12 +1,143 @@
+
 const products = [
-  {id:1,category:"Kitchen",name:{id:"Rak Piring Minimalis",en:"Minimal Dish Rack"},description:{id:"Membantu area cuci tetap rapi dan mudah dijangkau.",en:"Keep your washing area tidy and essentials within reach."},price:"Cek harga",tag:{id:"Pilihan dapur",en:"Kitchen pick"},image:"https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:2,category:"Home Organization",name:{id:"Kotak Penyimpanan Serbaguna",en:"Multipurpose Storage Box"},description:{id:"Solusi praktis untuk menyimpan barang-barang kecil.",en:"A practical solution for organizing everyday essentials."},price:"Cek harga",tag:{id:"Ruang lebih rapi",en:"Neat spaces"},image:"https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:3,category:"Bedroom",name:{id:"Lampu Tidur Estetik",en:"Ambient Bedside Lamp"},description:{id:"Ciptakan suasana kamar yang hangat dan menenangkan.",en:"Create a warm, calming atmosphere in your bedroom."},price:"Cek harga",tag:{id:"Cozy corner",en:"Cozy corner"},image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:4,category:"Living Room",name:{id:"Bantal Dekorasi",en:"Decorative Cushion"},description:{id:"Sentuhan sederhana untuk mempercantik ruang keluarga.",en:"An easy accent to refresh your living space."},price:"Cek harga",tag:{id:"Detail pilihan",en:"Editor's detail"},image:"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:5,category:"Cleaning Tools",name:{id:"Peralatan Bersih Praktis",en:"Everyday Cleaning Tool"},description:{id:"Bantu rutinitas bersih-bersih jadi lebih mudah.",en:"Make everyday cleaning routines a little easier."},price:"Cek harga",tag:{id:"Daily essential",en:"Daily essential"},image:"https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:6,category:"Home Appliances",name:{id:"Peralatan Elektronik Rumah",en:"Home Appliance Essential"},description:{id:"Pilihan fungsional untuk mendukung aktivitas harian.",en:"Functional picks to support your daily routine."},price:"Cek harga",tag:{id:"Praktis digunakan",en:"Made practical"},image:"https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:7,category:"Home Decoration",name:{id:"Vas Dekorasi Minimalis",en:"Minimalist Decorative Vase"},description:{id:"Elemen dekorasi simpel untuk sudut favorit di rumah.",en:"A simple decorative accent for your favorite corner."},price:"Cek harga",tag:{id:"Home accent",en:"Home accent"},image:"https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=800&q=80",affiliateUrl:""},
-  {id:8,category:"Kitchen",name:{id:"Wadah Dapur Serbaguna",en:"Multipurpose Kitchen Container"},description:{id:"Menjaga kebutuhan dapur tersimpan dengan lebih teratur.",en:"Keep kitchen essentials stored neatly and accessibly."},price:"Cek harga",tag:{id:"Kitchen essential",en:"Kitchen essential"},image:"https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=800&q=80",affiliateUrl:""}
+  {
+    id: 1,
+    category: "Kitchen",
+    name: {
+      id: "AYLIAO Rak Piring Wastafel Tertutup",
+      en: "AYLIAO Covered Sink Dish Rack"
+    },
+    description: {
+      id: "Rak piring dengan kabinet dan baki air untuk membantu area dapur tetap rapi.",
+      en: "A covered dish rack with cabinet and water tray to keep your kitchen organized."
+    },
+    price: "Cek harga",
+    tag: { id: "Pilihan dapur", en: "Kitchen pick" },
+    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: [
+      { marketplace: "Shopee", url: "https://s.shopee.co.id/5LDcPQL2D9" }
+    ]
+  },
+  {
+    id: 2,
+    category: "Kitchen",
+    name: {
+      id: "Dispenser Sabun Cuci Piring 2-in-1 / 3-in-1",
+      en: "2-in-1 / 3-in-1 Dish Soap Dispenser"
+    },
+    description: {
+      id: "Dispenser sabun dengan holder spons, praktis untuk kebutuhan wastafel.",
+      en: "A practical dish soap dispenser with sponge holder for your kitchen sink."
+    },
+    price: "Cek harga",
+    tag: { id: "Praktis digunakan", en: "Everyday essential" },
+    image: "https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: [
+      { marketplace: "Shopee", url: "https://s.shopee.co.id/5AuCDCFBHZ" }
+    ]
+  },
+  {
+    id: 3,
+    category: "Kitchen",
+    name: {
+      id: "Qiek Food Container Stainless Steel 304 Set 10 PCS",
+      en: "Qiek Stainless Steel 304 Food Container Set"
+    },
+    description: {
+      id: "Wadah penyimpanan makanan berbahan stainless steel 304 dengan tutup.",
+      en: "Stainless steel 304 food storage containers with lids."
+    },
+    price: "Cek harga",
+    tag: { id: "Kitchen essential", en: "Kitchen essential" },
+    image: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: [
+      { marketplace: "Shopee", url: "https://s.shopee.co.id/gRmqzm1Ja" }
+    ]
+  },
+  {
+    id: 4,
+    category: "Cleaning Tools",
+    name: {
+      id: "Tempat Sampah Rumah Minimalis",
+      en: "Minimalist Household Trash Bin"
+    },
+    description: {
+      id: "Tempat sampah minimalis untuk menjaga ruangan tetap bersih dan tertata.",
+      en: "A minimalist trash bin to help keep your space clean and organized."
+    },
+    price: "Cek harga",
+    tag: { id: "Rumah lebih rapi", en: "Neat spaces" },
+    image: "https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: [
+      { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQP9CN/" }
+    ]
+  },
+  {
+    id: 5,
+    category: "Cleaning Tools",
+    name: {
+      id: "FurniBox Tempat Sampah MidNight",
+      en: "FurniBox MidNight Trash Bin"
+    },
+    description: {
+      id: "Pilihan tempat sampah dengan desain minimalis untuk kebutuhan rumah.",
+      en: "A minimalist-style trash bin for everyday household needs."
+    },
+    price: "Cek harga",
+    tag: { id: "Pilihan rumah", en: "Home pick" },
+    image: "https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: [
+      { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQU4b6/" }
+    ]
+  },
+  {
+    id: 6,
+    category: "Bedroom",
+    name: {
+      id: "Lampu Tidur Estetik",
+      en: "Ambient Bedside Lamp"
+    },
+    description: {
+      id: "Ciptakan suasana kamar yang hangat dan menenangkan.",
+      en: "Create a warm, calming atmosphere in your bedroom."
+    },
+    price: "Cek harga",
+    tag: { id: "Cozy corner", en: "Cozy corner" },
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: []
+  },
+  {
+    id: 7,
+    category: "Living Room",
+    name: {
+      id: "Bantal Dekorasi",
+      en: "Decorative Cushion"
+    },
+    description: {
+      id: "Sentuhan sederhana untuk mempercantik ruang keluarga.",
+      en: "An easy accent to refresh your living space."
+    },
+    price: "Cek harga",
+    tag: { id: "Detail pilihan", en: "Editor's detail" },
+    image: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: []
+  },
+  {
+    id: 8,
+    category: "Home Organization",
+    name: {
+      id: "Kotak Penyimpanan Serbaguna",
+      en: "Multipurpose Storage Box"
+    },
+    description: {
+      id: "Solusi praktis untuk menyimpan barang-barang kecil.",
+      en: "A practical solution for organizing everyday essentials."
+    },
+    price: "Cek harga",
+    tag: { id: "Ruang lebih rapi", en: "Neat spaces" },
+    image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80",
+    affiliateLinks: []
+  }
 ];
 
 const translations = {
@@ -31,34 +162,91 @@ function categoryName(category){
  const key={"Kitchen":"catKitchen","Home Organization":"catOrganization","Bedroom":"catBedroom","Living Room":"catLiving","Cleaning Tools":"catCleaning","Home Appliances":"catAppliances","Home Decoration":"catDecoration"}[category];
  return key ? translations[currentLanguage][key] : category;
 }
-function renderProducts(){
- const query=searchInput.value.trim().toLowerCase();
- let visible=products.filter(p=>{
-  const matchesCategory=activeCategory==="all"||p.category===activeCategory;
-  const matchesSearch=(p.name[currentLanguage]+" "+p.description[currentLanguage]+" "+p.category).toLowerCase().includes(query);
-  return matchesCategory&&matchesSearch;
- });
- if(sortSelect.value==="az") visible.sort((a,b)=>a.name[currentLanguage].localeCompare(b.name[currentLanguage]));
- productGrid.innerHTML=visible.map(p=>`
-  <article class="product-card">
-   <div class="product-image"><img src="${p.image}" alt="${p.name[currentLanguage]}" loading="lazy" onerror="this.style.opacity='.0'"><span class="product-tag">${p.tag[currentLanguage]}</span></div>
-   <div class="product-info">
-    <div class="product-category">${categoryName(p.category)}</div>
-    <h3 class="product-name">${p.name[currentLanguage]}</h3>
-    <p class="product-description">${p.description[currentLanguage]}</p>
-    <div class="product-bottom"><span class="product-price">${p.price}</span><button class="product-link" type="button" data-product-id="${p.id}">${translations[currentLanguage].viewProduct} <span>↗</span></button></div>
-   </div>
-  </article>`).join("");
- emptyState.hidden=visible.length!==0;
- resultCount.textContent=currentLanguage==="id"?`${visible.length} pilihan`:`${visible.length} picks`;
- document.querySelectorAll(".product-link").forEach(btn=>btn.addEventListener("click",()=>{
-  const product=products.find(p=>p.id===Number(btn.dataset.productId));
-  if(product.affiliateUrl){
-   window.open(product.affiliateUrl,"_blank","noopener,noreferrer");
-  }else{
-   alert(currentLanguage==="id"?"Link affiliate untuk produk ini belum ditambahkan. Edit data produk di file script.js.":"The affiliate link for this product has not been added yet. Edit the product data in script.js.");
+
+function renderProducts() {
+  const query = searchInput.value.trim().toLowerCase();
+
+  let visible = products.filter(p => {
+    const matchesCategory =
+      activeCategory === "all" || p.category === activeCategory;
+
+    const matchesSearch =
+      (
+        p.name[currentLanguage] + " " +
+        p.description[currentLanguage] + " " +
+        p.category
+      ).toLowerCase().includes(query);
+
+    return matchesCategory && matchesSearch;
+  });
+
+  if (sortSelect.value === "az") {
+    visible.sort((a, b) =>
+      a.name[currentLanguage].localeCompare(b.name[currentLanguage])
+    );
   }
- }));
+
+  productGrid.innerHTML = visible.map(p => {
+    const affiliateButtons = p.affiliateLinks.length
+      ? p.affiliateLinks.map(link => `
+          <a
+            class="product-link"
+            href="${link.url}"
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+          >
+            ${link.marketplace} ↗
+          </a>
+        `).join("")
+      : `
+          <span class="product-link">
+            ${currentLanguage === "id"
+              ? "Link segera hadir"
+              : "Link coming soon"}
+          </span>
+        `;
+
+    return `
+      <article class="product-card">
+        <div class="product-image">
+          <img
+            src="${p.image}"
+            alt="${p.name[currentLanguage]}"
+            loading="lazy"
+            onerror="this.style.opacity='0'"
+          >
+          <span class="product-tag">${p.tag[currentLanguage]}</span>
+        </div>
+
+        <div class="product-info">
+          <div class="product-category">
+            ${categoryName(p.category)}
+          </div>
+
+          <h3 class="product-name">
+            ${p.name[currentLanguage]}
+          </h3>
+
+          <p class="product-description">
+            ${p.description[currentLanguage]}
+          </p>
+
+          <div class="product-bottom">
+            <span class="product-price">${p.price}</span>
+            <div class="affiliate-buttons">
+              ${affiliateButtons}
+            </div>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  emptyState.hidden = visible.length !== 0;
+
+  resultCount.textContent = currentLanguage === "id"
+    ? `${visible.length} pilihan`
+    : `${visible.length} picks`;
 }
 function setLanguage(lang){
  currentLanguage=lang;
