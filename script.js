@@ -67,7 +67,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Rumah lebih rapi", en: "Neat spaces" },
-    image: "images/tempat-sampah-minimalis.jpg",
+    image: "images/tempat-sampah-minimalis.jpeg",
     affiliateLinks: [
       { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQP9CN/" }
     ]
@@ -85,7 +85,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Pilihan rumah", en: "Home pick" },
-    image: "images/tempat-sampah-furnibox-midnight.jpg",
+    image: "images/tempat-sampah-furnibox-midnigh.jpeg",
     affiliateLinks: [
       { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQU4b6/" }
     ]
