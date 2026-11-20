@@ -13,7 +13,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Pilihan dapur", en: "Kitchen pick" },
-    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80",
+    image: "images/ayliao-rak-piring.jpg",
     affiliateLinks: [
       { marketplace: "Shopee", url: "https://s.shopee.co.id/5LDcPQL2D9" }
     ]
@@ -31,7 +31,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Praktis digunakan", en: "Everyday essential" },
-    image: "https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=800&q=80",
+   image: "images/dispenser-sabun.jpg",
     affiliateLinks: [
       { marketplace: "Shopee", url: "https://s.shopee.co.id/5AuCDCFBHZ" }
     ]
@@ -49,7 +49,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Kitchen essential", en: "Kitchen essential" },
-    image: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=800&q=80",
+    image: "images/qiek-food-container.jpg",
     affiliateLinks: [
       { marketplace: "Shopee", url: "https://s.shopee.co.id/gRmqzm1Ja" }
     ]
@@ -67,7 +67,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Rumah lebih rapi", en: "Neat spaces" },
-    image: "https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=800&q=80",
+    image: "images/tempat-sampah-minimalis.jpg",
     affiliateLinks: [
       { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQP9CN/" }
     ]
@@ -85,7 +85,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Pilihan rumah", en: "Home pick" },
-    image: "https://images.unsplash.com/photo-1605600659873-d808a13e4d9a?auto=format&fit=crop&w=800&q=80",
+    image: "images/tempat-sampah-furnibox-midnight.jpg",
     affiliateLinks: [
       { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQU4b6/" }
     ]
