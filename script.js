@@ -85,7 +85,7 @@ const products = [
     },
     price: "Cek harga",
     tag: { id: "Pilihan rumah", en: "Home pick" },
-    image: "images/tempat -sampah-furnibox-midnight.jpg",
+    image: "images/tempat-sampah-furnibox-midnight.jpg",
     affiliateLinks: [
       { marketplace: "Tokopedia", url: "https://tk.tokopedia.com/ZSpwQU4b6/" }
     ]
